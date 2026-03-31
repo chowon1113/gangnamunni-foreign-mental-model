@@ -44,9 +44,9 @@
 
     .page {
       position: relative;
-      width: min(100%, 1440px);
+      width: min(100%, 1600px);
       margin: 0 auto;
-      padding: 28px 28px 96px;
+      padding: 24px 24px 84px;
     }
 
     .site-header {
@@ -56,35 +56,35 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 14px 0 18px;
+      padding: 12px 0 16px;
       backdrop-filter: blur(14px);
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.72));
     }
 
     .logo {
-      width: 108px;
+      width: 92px;
       height: auto;
     }
 
     .header-note {
       color: var(--muted);
-      font-size: 13px;
+      font-size: 12px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
 
     .hero {
-      padding: 56px 0 56px;
+      padding: 46px 0 48px;
       display: grid;
       grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
-      gap: 24px;
+      gap: 20px;
       align-items: end;
     }
 
     .eyebrow {
-      margin: 0 0 14px;
+      margin: 0 0 12px;
       color: var(--brand);
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -92,21 +92,21 @@
 
     h1 {
       margin: 0;
-      font-size: clamp(42px, 6vw, 84px);
+      font-size: clamp(36px, 5.1vw, 72px);
       line-height: 0.96;
       letter-spacing: -0.04em;
     }
 
     .hero-copy {
-      max-width: 720px;
-      margin: 22px 0 0;
+      max-width: 640px;
+      margin: 18px 0 0;
       color: var(--muted);
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.7;
     }
 
     .hero-card {
-      padding: 24px;
+      padding: 20px;
       border: 1px solid var(--brand-line);
       border-radius: var(--radius-lg);
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 247, 243, 0.94));
@@ -122,18 +122,18 @@
     }
 
     .hero-card p {
-      margin: 14px 0 0;
-      font-size: 16px;
+      margin: 12px 0 0;
+      font-size: 15px;
       line-height: 1.7;
     }
 
     .legend {
       display: grid;
       grid-template-columns: 1fr auto 1fr;
-      gap: 18px;
+      gap: 16px;
       align-items: center;
-      margin: 0 0 44px;
-      padding: 16px 18px;
+      margin: 0 0 36px;
+      padding: 14px 16px;
       border: 1px solid var(--line);
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.7);
@@ -145,12 +145,12 @@
       align-items: center;
       min-width: 0;
       color: var(--muted);
-      font-size: 14px;
+      font-size: 13px;
     }
 
     .legend-item strong {
       color: var(--text);
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .legend-dot {
@@ -162,7 +162,7 @@
     }
 
     .legend-center {
-      padding: 10px 18px;
+      padding: 8px 16px;
       border-radius: 999px;
       background: var(--surface-strong);
       color: var(--brand);
@@ -175,7 +175,7 @@
 
     .timeline {
       position: relative;
-      padding-bottom: 48px;
+      padding-bottom: 40px;
     }
 
     .timeline::before {
@@ -192,20 +192,20 @@
     .timeline-stage {
       position: relative;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 180px minmax(0, 1fr);
-      gap: 28px;
+      grid-template-columns: minmax(0, 1fr) 160px minmax(0, 1fr);
+      gap: 24px;
       align-items: start;
       min-height: 100vh;
-      padding: 56px 0;
+      padding: 48px 0;
     }
 
     .timeline-stage::after {
       content: "";
       position: absolute;
       left: 50%;
-      top: 84px;
-      width: 18px;
-      height: 18px;
+      top: 74px;
+      width: 16px;
+      height: 16px;
       transform: translateX(-50%);
       border: 4px solid #fff;
       border-radius: 50%;
@@ -215,7 +215,7 @@
 
     .track-card {
       position: relative;
-      padding: 26px;
+      padding: 22px;
       border: 1px solid var(--line);
       border-radius: var(--radius-lg);
       background: var(--surface);
@@ -237,7 +237,7 @@
     }
 
     .track-label {
-      margin: 0 0 14px;
+      margin: 0 0 12px;
       color: var(--brand);
       font-size: 12px;
       font-weight: 700;
@@ -247,36 +247,36 @@
 
     .track-title {
       margin: 0;
-      font-size: clamp(28px, 2.5vw, 40px);
+      font-size: clamp(24px, 2.2vw, 34px);
       line-height: 1.02;
       letter-spacing: -0.04em;
     }
 
     .track-subtitle {
-      margin: 10px 0 0;
+      margin: 8px 0 0;
       color: var(--muted);
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.6;
     }
 
     .metric {
-      margin: 24px 0 0;
-      padding: 16px 18px;
+      margin: 20px 0 0;
+      padding: 14px 16px;
       border-left: 3px solid var(--brand);
       border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
       background: rgba(255, 84, 15, 0.05);
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.65;
     }
 
     .detail-list {
       display: grid;
-      gap: 12px;
-      margin: 22px 0 0;
+      gap: 10px;
+      margin: 18px 0 0;
     }
 
     .detail-item {
-      padding: 14px 16px;
+      padding: 12px 14px;
       border-radius: var(--radius-sm);
       background: rgba(20, 20, 20, 0.03);
     }
@@ -356,9 +356,9 @@
 
     .stage-center {
       position: sticky;
-      top: 112px;
+      top: 100px;
       display: grid;
-      gap: 12px;
+      gap: 10px;
       justify-items: center;
       opacity: 0.58;
       transform: translateY(20px);
@@ -366,7 +366,7 @@
     }
 
     .stage-chip {
-      padding: 8px 14px;
+      padding: 7px 12px;
       border-radius: 999px;
       background: rgba(255, 84, 15, 0.08);
       color: var(--brand);
@@ -378,7 +378,7 @@
 
     .stage-name {
       margin: 0;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 1.05;
       letter-spacing: -0.04em;
@@ -388,14 +388,14 @@
     .stage-prompt {
       margin: 0;
       color: var(--muted);
-      font-size: 14px;
+      font-size: 13px;
       line-height: 1.55;
       text-align: center;
     }
 
     .closing {
-      margin-top: 12px;
-      padding: 28px;
+      margin-top: 10px;
+      padding: 24px;
       border: 1px solid var(--brand-line);
       border-radius: var(--radius-lg);
       background: linear-gradient(180deg, rgba(255, 247, 243, 0.9), rgba(255, 255, 255, 0.96));
@@ -405,12 +405,12 @@
     .closing-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 18px;
-      margin-top: 18px;
+      gap: 16px;
+      margin-top: 16px;
     }
 
     .closing-card {
-      padding: 20px;
+      padding: 18px;
       border-radius: var(--radius-md);
       background: rgba(255, 255, 255, 0.8);
     }
@@ -443,13 +443,13 @@
     .compare-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 18px;
-      margin-top: 18px;
+      gap: 16px;
+      margin-top: 16px;
     }
 
     .compare-column {
       display: grid;
-      gap: 16px;
+      gap: 14px;
     }
 
     .compare-head {
@@ -462,7 +462,7 @@
 
     .compare-head strong {
       color: var(--text);
-      font-size: 22px;
+      font-size: 20px;
       letter-spacing: -0.03em;
     }
 
@@ -481,12 +481,12 @@
     .score-strip {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-      margin-top: 14px;
+      gap: 10px;
+      margin-top: 12px;
     }
 
     .score-chip {
-      padding: 14px 16px;
+      padding: 12px 14px;
       border-radius: 16px;
       background: rgba(255, 255, 255, 0.84);
       border: 1px solid rgba(255, 84, 15, 0.12);
@@ -500,9 +500,9 @@
     }
 
     .score-chip-value {
-      margin-top: 6px;
+      margin-top: 4px;
       color: var(--text);
-      font-size: 26px;
+      font-size: 22px;
       font-weight: 700;
       letter-spacing: -0.04em;
     }
@@ -510,8 +510,8 @@
     .data-table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 14px;
-      font-size: 14px;
+      margin-top: 12px;
+      font-size: 13px;
     }
 
     .data-table th,
